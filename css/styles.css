@@ -3,21 +3,23 @@
     padding: 0;
 }
 
-
 html{
     scroll-behavior: smooth;
     font-family: 'Anton', sans-serif;
     font-size: 62.5%;
 }
 
-    h1 {
+#barraLogo{
+        background-color: #2D3142;
+
+}
+    h1{
+    display: inline-flex;
     color: rgb(255, 255, 255);
     text-align: right;
     font-size: 6rem;
-    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/carbon_fibre.png);
-    margin-top: 2rem;
-    ;
 }
+
 
 h2 {
     font-size: 4rem;
@@ -26,7 +28,7 @@ h2 {
 a {
     text-decoration: none ;
     font-size:4rem;
-    color: rgb(255, 255, 255);
+    color: #4F5D75;
 }
 
 body {
@@ -35,7 +37,6 @@ body {
     background-size: cover ;
     background-attachment: fixed;
     background-color: rgb(255, 255, 255);
-    background-image: url(https://media.istockphoto.com/photos/automated-programmed-machine-industrial-laser-machine-cuts-out-parts-picture-id1201268902?b=1&k=20&m=1201268902&s=612x612&w=0&h=YIu4YKa-weeNyCP1HB1r_7QkNL3qgmjpA7WUlnMQGJs=);
 }
 main{
     margin-top: 35rem;
@@ -48,6 +49,18 @@ table {
     border-spacing: 1rem;
 }
 
+.carrusel {
+    background-color: #bfc0c0;
+}
+.carrusel img {
+    
+
+    height: 600px;
+    
+    width: 600px;
+    
+    object-fit:contain;
+}
 
 .video {
 text-align: center;
@@ -55,14 +68,15 @@ padding-top: 10rem;
 }
 
 .navegacion{
-    margin-top: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    text-align: center;
 }
 .navegacion li {
     display: inline;
     margin-inline: 3rem;
-    
-}
 
+}
 
 td {
     color: rgb(255, 255, 255);
@@ -122,9 +136,9 @@ div{
 
 footer{
     font-size: 3rem;
-    color: rgb(255, 255, 255);
+    color: #4F5D75;
     text-align: center;
-    padding-top: 30rem;
+    padding-top: 15rem;
 
 }
 
