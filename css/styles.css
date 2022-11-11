@@ -96,7 +96,7 @@ tr {
 .introContacto{    
     font-size: 3rem;
     text-align: center;
-    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/carbon_fibre.png);
+    background-color: #bfc0c0;
     padding: 7rem;
     border-radius: 2rem;
     margin-top: 10rem;
@@ -174,21 +174,31 @@ input{
 }
 
 .vision { 
-    font-size: 1.5rem;
-    text-align: left;
-    color: rgb(255, 255, 255);
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    font-size: 3rem;
+    color: #4F5D75;
     padding: 2rem;
-    margin-top: 35rem;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+    background-color: #bfc0c0;
+}
+.vision h2 {
+    text-align: center;
+}
+
+.vision p { 
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 3rem;
+    color:#2D3142;
+    padding: 2rem;
+    margin-bottom: 2rem;
     border-radius: 2rem;
     background-color: #bfc0c0;
 }
 
-.mision { font-size: 3rem;
-    text-align: left;
-    color: rgb(255, 255, 255);
-    padding: 2rem;
-    margin-top: 10rem;
-    border-radius: 2rem;
-    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/carbon_fibre.png);
-}
+
 
