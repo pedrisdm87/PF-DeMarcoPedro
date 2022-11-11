@@ -5,7 +5,6 @@
 
 html{
     scroll-behavior: smooth;
-    font-family: 'Anton', sans-serif;
     font-size: 62.5%;
 }
 
@@ -28,7 +27,7 @@ h2 {
 a {
     text-decoration: none ;
     font-size:4rem;
-    color: #4F5D75;
+    color: #2D3142;
 }
 
 body {
@@ -44,9 +43,10 @@ main{
 table {
     margin-top: 15rem;
     text-align: center;
-    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/carbon_fibre.png);
+    background-color:#bfc0c0;
     border-radius: 2rem;
     border-spacing: 1rem;
+    width: fit-content;
 }
 
 .carrusel {
@@ -79,14 +79,14 @@ padding-top: 10rem;
 }
 
 td {
-    color: rgb(255, 255, 255);
+    color:#2D3142;
     text-align: center;
     font-style:italic;
     padding: 2rem;
 }
 
 tr {
-    color: rgb(255, 255, 255);
+    color: #2D3142;
     font-style:italic;
     text-align: center;
 }
@@ -104,7 +104,7 @@ tr {
 p { 
     font-size: 3rem;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: #2D3142;
     
 }
 .preguntas p {
@@ -123,7 +123,7 @@ fieldset{
 legend{
     font-size: 3rem;
     text-align: left;
-    color: rgb(255, 255, 255);
+    color: #4F5D75;
 }
 
 div{  
@@ -136,7 +136,7 @@ div{
 
 footer{
     font-size: 3rem;
-    color: #4F5D75;
+    color: #2D3142;
     text-align: center;
     padding-top: 15rem;
 
@@ -178,7 +178,7 @@ input{
     padding: 2rem;
     margin-top: 35rem;
     border-radius: 2rem;
-    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/carbon_fibre.png);
+    background-color: #bfc0c0;
 }
 
 .mision { font-size: 3rem;
