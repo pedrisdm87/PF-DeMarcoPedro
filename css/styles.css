@@ -10,13 +10,16 @@ html{
 
 #barraLogo{
         background-color: #2D3142;
-
+        
 }
+
+
     h1{
     display: inline-flex;
     color: rgb(255, 255, 255);
     text-align: right;
     font-size: 6rem;
+    
 }
 
 
@@ -64,15 +67,19 @@ padding-top: 10rem;
     margin-top: 2rem;
     margin-bottom: 5rem;
     text-align: center;
-}
+    }
+    
 .navegacion li {
     display: inline;
     margin-inline: 3rem;
+    
+    
 }
 
 .navegacion li :hover {
     color: #ef8354;
     transition:0.8s;
+    
 }
 
 .hoja-servicio {
@@ -193,6 +200,20 @@ footer p{
     color: #2D3142;
     text-align: center;
     padding-top: 5rem;
-
+    animation-duration: 3s;
+    animation-name: slidein;
+    width: 100%;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 10%;
+      width: 50%
+    }
+  
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
 }
 
