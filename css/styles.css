@@ -118,7 +118,7 @@ footer {
     background-color: #bfc0c0;
     border-radius: 5rem;
     padding: 2rem;
-    margin-top: 2rem;
+    margin-top: 10rem;
     box-shadow: 0 0 10px 10px #2D3142
 }
 
@@ -135,6 +135,19 @@ footer {
     text-align: justify;
     color: #2D3142;   
 }
+
+.video-responsive {
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom:2rem ;
+    overflow:hidden;
+
+
+}
+.video-responsive iframe{
+    height:400px;
+}
+
 
 /* Servicios */
 
