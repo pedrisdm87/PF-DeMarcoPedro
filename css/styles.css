@@ -71,10 +71,10 @@ padding-top: 10rem;
     
 .navegacion li {
     display: inline;
-    margin-inline: 3rem;
+    margin-inline: 3rem;    
+    }
     
-    
-}
+ 
 
 .navegacion li :hover {
     color: #ef8354;
@@ -200,7 +200,5 @@ footer p{
     color: #2D3142;
     text-align: center;
     padding-top: 5rem;
-    animation-duration: 3s;
-    animation-name: slidein;
-    width: 100%;
-  }
+   }
+
