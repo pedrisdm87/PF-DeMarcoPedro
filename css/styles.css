@@ -204,16 +204,3 @@ footer p{
     animation-name: slidein;
     width: 100%;
   }
-  
-  @keyframes slidein {
-    from {
-      margin-left: 10%;
-      width: 50%
-    }
-  
-    to {
-        margin-left: 0%;
-        width: 100%;
-    }
-}
-
