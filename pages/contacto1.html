@@ -34,99 +34,81 @@
 
     <section>
     
-        <p class="introContacto">
+        <p class="introContacto container">
           Queremos potenciar tu proyecto, con las últimas herramientas disponibles, buscando la mejor solución para tu necesidad. Contanos en que podemos ayudarte.
         </p>
 
 
 
 
-    
-    <form> <!-- Form = formulario-->
+    <section class="container formulario ">
+
+<h4> Complete sus datos, nos contactaremos con usted:</h4>
+
+            <div>
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="" id="nombre" required>
+            </div>
         
-        <fieldset> <!-- recuadro exterior-->
+            <div>
+                <label for="Apellido">Apellido: </label>
+                <input type="text" name="" id="Apellido" required>
+            </div>
+        
+            <div> <label for="estadoCivil">Estado Civil: </label>
+            <select name="estadoCivil" id="estadoCivil" >
+                <option value="Soltero/a">Soltero/a</option>
+                <option value="Casado/a">Casado/a</option>
+                <option value="Divorciado/a">Divorciado/a</option>
+                <option value="Viudo/a">Viudo/a</option>
+            </select>
+            </div>
+        
+            <div>
+                <label for="email"> Correo Electrónico: </label>
+                <input type="email" id="email" required>
+            </div>
     
-            <legend><h4> Complete sus datos, nos contactaremos con usted:</h4></legend>
+            <div>
+                <label for="telefono">Telefono de Contacto: </label>
+                <input type="text" id="telefono" required>
+            </div>
+        
+        <div class="preguntas"> 
+            <!-- Input de opciones unicas-->
+        
+            <p>¿Tienes máquinas? :</p>
+        
+            <label class="opcion" for="opcion1">Si</label>
+            <input type="radio" name="cursos" id="opcion1">
+            <label class="opcion" for="opcion2">No</label>
+            <input type="radio" name="cursos" id="opcion2">
+        </div>
+
+        <div class="preguntas"> <!-- Input de opciones multiples-->
+            <p>En caso de tener alguna, ¿Cuál/es? :</p>
+            <label for="varias1">Co2</label>
+            <input type="checkbox" name="cursos" id="varias1">
+           
+            <label for="varias2">Galvanométrica</label>
+            <input type="checkbox" name="cursos" id="varias2">
             
-        <div>
-            <label for="nombre">Nombre: </label>
-            <input type="text" name="" id="nombre" required>
-        </div>
- 
-
-  
-
-    </div>
-        <div>
-            <label for="Apellido">Apellido: </label>
-            <input type="text" name="" id="Apellido" required>
-        </div>
-  
-   
-    
-        <div> <label for="estadoCivil">Estado Civil: </label>
-        <select name="estadoCivil" id="estadoCivil" >
-            <option value="Soltero/a">Soltero/a</option>
-            <option value="Casado/a">Casado/a</option>
-            <option value="Divorciado/a">Divorciado/a</option>
-            <option value="Viudo/a">Viudo/a</option>
-        </select>
-    
-        <div>
-            <label for="email"> Correo Electrónico: </label>
-            <input type="email" id="email" required>
+            <label for="varias3">Corte de Metal</label>
+            <input type="checkbox" name="cursos" id="varias3">
         </div>
 
-        <div>
-            <label for="telefono">Telefono de Contacto: </label>
-            <input type="text" id="telefono" required>
+        <div class="casilla">
+            <label for="mensaje">Dejanos tu comentario:</label>
+            <textarea  id="mensaje" cols="15" rows="5" maxlength="10"></textarea>
         </div>
-    
-    <div class="preguntas"> 
-        <!-- Input de opciones unicas-->
-    
-        <p>¿Tienes máquinas? :</p>
-    
-        <label class="opcion" for="opcion1">Si</label>
-        <input type="radio" name="cursos" id="opcion1">
-        <label class="opcion" for="opcion2">No</label>
-        <input type="radio" name="cursos" id="opcion2">
-    </div>
-
-
-    
-    <div class="preguntas"> <!-- Input de opciones multiples-->
-        <p>En caso de tener alguna, ¿Cuál/es? :</p>
-    
-
-
-        <label for="varias1">Co2</label>
-        <input type="checkbox" name="cursos" id="varias1">
-       
-        <label for="varias2">Galvanométrica</label>
-        <input type="checkbox" name="cursos" id="varias2">
         
-        <label for="varias3">Corte de Metal</label>
-        <input type="checkbox" name="cursos" id="varias3">
-    
-    </div>
-    
+        <div>
+            <input type="submit" value="Enviar ">
+            <input type="reset" value="Limpiar formulario">
+        </div>
 
-    <div>
-        <label for="mensaje">Dejanos tu comentario:</label>
-        <textarea  id="mensaje" cols="30" rows="10" maxlength="20"></textarea>
-    </div>
+    </section>
     
-    <div>
-        <input type="submit" value="Enviar ">
-        <input type="reset" value="Limpiar formulario">
-    </div>
-
-
-
-    </fieldset>
-    
-    </form>
 
         <footer>
             <p>Soporte Técnico Co2 - Ciudad Autónoma de Buenos Aires-Todos los derechos reservados</p>  
