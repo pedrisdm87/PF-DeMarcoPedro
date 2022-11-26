@@ -200,9 +200,9 @@ h4 {
   margin-top: 10rem;
   background-color: #ef8354;
   border-radius: 2rem;
-  width: 55%;
   padding: 10rem;
   box-shadow: 0 0 10px 10px #2D3142;
+  overflow: hidden;
 }
 
 .introContacto {
