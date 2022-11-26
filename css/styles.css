@@ -266,6 +266,11 @@ h4 {
   overflow: hidden;
 }
 
+.titulo-redes h2 {
+  text-align: center;
+  margin-top: 5rem;
+}
+
 .social-bar {
   display: flex;
   justify-content: center;
@@ -273,7 +278,8 @@ h4 {
   margin-top: 3rem;
 }
 .social-bar img {
-  max-width: 100px;
+  max-width: 80px;
+  margin-inline: 10px;
 }
 .social-bar li {
   display: inline;

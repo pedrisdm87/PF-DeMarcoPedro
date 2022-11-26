@@ -10,6 +10,11 @@
     overflow: hidden;
 }
 
+.titulo-redes h2 {
+text-align: center;
+margin-top: 5rem;
+}
+
 .social-bar{
 
        display: flex;
@@ -19,7 +24,8 @@
         
     
     img {
-        max-width: 100px;
+        max-width: 80px;
+        margin-inline: 10px;
         
     }
 
