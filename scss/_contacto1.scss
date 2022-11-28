@@ -3,6 +3,18 @@ h4{
     font-size: 2.5rem;
     text-align: center;
 }
+
+.introContacto{    
+    font-size: 2.5rem;
+    text-align: left;
+    background-color: #bfc0c0;
+    padding: 7rem;
+    border-radius: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem ;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px 10px #2D3142
+}
 .formulario{
     margin-top: 10rem;
     background-color: #ef8354;
@@ -12,17 +24,7 @@ h4{
     overflow: hidden;
     }
 
-    .introContacto{    
-        font-size: 2.5rem;
-        text-align: left;
-        background-color: #bfc0c0;
-        padding: 7rem;
-        border-radius: 2rem;
-        margin-top: 5rem;
-        margin-bottom: 5rem ;
-        border-radius: 2rem;
-        box-shadow: 0 0 10px 10px #2D3142
-    }
+
     
     .formulario p { 
         font-size: 2.5rem;
@@ -44,7 +46,6 @@ h4{
     .formulario input{ 
         font-size: 2.5rem;
         text-align: left;
-
         }
     
     #estadoCivil { 
@@ -60,4 +61,24 @@ h4{
     .casilla{
         display: flex;
         flex-direction: column;
+    }
+
+    @media screen and (max-width: 576px){
+        .formulario p { 
+            font-size: 1.5rem;
+        }
+        .formulario div{  
+            font-size: 1.5rem;
+        }
+        .formulario input{ 
+            font-size: 1.5rem;
+        }
+        #estadoCivil { 
+            font-size: 1.5rem;
+        }
+        .formulario .preguntas { 
+            font-size: 1.5rem;
+        }
+
+
     }

@@ -35,3 +35,9 @@ margin-top: 5rem;
         width: 100;
     }
 }
+
+@media screen and (max-width: 576px){
+.social-bar img { 
+    max-width: 55px;
+}
+}
