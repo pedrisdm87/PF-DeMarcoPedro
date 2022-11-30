@@ -1,10 +1,11 @@
 /* Inicio */
 
 
+
 .carrusel {
-    background-color: #bfc0c0;
+    background-color: $gris;
     border-radius: 5rem;
-    box-shadow: 0 0 10px 10px #2D3142
+    box-shadow: 0 0 10px 10px $azul;
 }
 .carrusel img {
     
@@ -18,17 +19,17 @@
 
 
 .descripcion{ 
-    background-color: #bfc0c0;
+    background-color: $gris;
     border-radius: 5rem;
     padding: 2rem;
     margin-top: 10rem;
-    box-shadow: 0 0 10px 10px #2D3142
+    box-shadow: 0 0 10px 10px $azul
 }
 
 .descripcion h2 {
     text-align: center;
     margin-top: 2rem;
-    color: #2D3142;
+    color: $azul;
     
 }
 
@@ -36,7 +37,7 @@
 
     font-size: 2rem;
     text-align: justify;
-    color: #2D3142;   
+    color: $azul;   
 }
 
 .video-responsive {
@@ -52,8 +53,8 @@
 }
 
 .container-boton{
-    background-color: #2D3142;
-    border: 1px solid #2D3142;
+    background-color: $azul;
+    border: 1px solid $azul;
     position: fixed;
     bottom: 50px;
     right: 50px;

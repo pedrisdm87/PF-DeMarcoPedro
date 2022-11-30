@@ -4,10 +4,10 @@
     display: grid;
     place-items: center;
     margin-top: 10rem;
-    box-shadow: 0 0 10px 10px #2D3142;
+    box-shadow: 0 0 10px 10px $azul;
     width: 100%;
     border-radius: 5rem;
-    background-color: #bfc0c0;
+    background-color: $gris;
     overflow: hidden;
 }
 

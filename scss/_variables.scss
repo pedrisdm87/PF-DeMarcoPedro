@@ -5,56 +5,70 @@
     padding: 0;
 }
 
+
+
+/* Tamaños de letras*/
+$xl:6rem;
+$l:4rem;
+$m:3rem;
+$s:2.5rem;
+$xs:1.5rem;
+$xxs:0.5rem;
+
+
+/* Media queries*/
+
+/* colores */
+$blanco:whitesmoke;
+$azul:#2D3142;
+$naranja:#ef8354;
+$gris: #bfc0c0;
+
 html{
     scroll-behavior: smooth;
     font-size: 62.5%;
 }
 
 .barraLogo {
-    background-color: #2D3142;
+    background-color: $azul;
     display: flex;
-    
-
 }
 
 
     h1{
     display: inline-flex;
-    color: rgb(255, 255, 255);
+    color: $blanco;
     text-align: right;
-    font-size: 6rem;
+    font-size: $xl;
     
 }
 @media screen and (max-width:695px){
 
     h1 {
-        font-size: 4rem;
+        font-size: $l;
     }
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: $m;
 }
 
 a {
     text-decoration: none ;
-    font-size:4rem;
-    color: #2D3142;
+    font-size:$l;
+    color: $azul;
 }
 
 @media screen and (max-width:992px){
     a {
-        font-size: 3rem;
+        font-size: $m;
     }
 }
 
 
 body {
-    background-repeat: no-repeat;
-    background-position: top, center;
-    background-size: cover ;
-    background-attachment: fixed;
-    background-color: rgb(255, 255, 255);
+  
+    background-color: $blanco
     
 }
 
@@ -76,20 +90,20 @@ body {
 }
 
 .navegacion li :hover {
-    color: #ef8354;
+    color: $naranja;
     transition:0.5s;
 }
 
 footer {
-    font-size: 2.5rem;
-    color: #2D3142;
+    font-size: $s;
+    color: $azul;
     text-align: center;
     padding-top: 5rem;
    }
 
 @media screen and (max-width:768px) {
     .footer {
-        font-size: 0.5rem;
+        font-size: $xxs;
     }
     
 }

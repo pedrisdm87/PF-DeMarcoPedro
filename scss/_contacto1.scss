@@ -1,35 +1,35 @@
 /* Contacto */
 h4{
-    font-size: 2.5rem;
+    font-size: $s;
     text-align: center;
 }
 
 .introContacto{    
-    font-size: 2.5rem;
+    font-size: $s;
     text-align: left;
-    background-color: #bfc0c0;
+    background-color: $gris;
     padding: 7rem;
     border-radius: 2rem;
     margin-top: 5rem;
     margin-bottom: 5rem ;
     border-radius: 2rem;
-    box-shadow: 0 0 10px 10px #2D3142
+    box-shadow: 0 0 10px 10px $azul
 }
 .formulario{
     margin-top: 10rem;
-    background-color: #ef8354;
+    background-color: $naranja;
     border-radius: 2rem;
     padding: 10rem;
-    box-shadow: 0 0 10px 10px #2D3142;
+    box-shadow: 0 0 10px 10px $azul;
     overflow: hidden;
     }
 
 
     
     .formulario p { 
-        font-size: 2.5rem;
+        font-size: $s;
         text-align: left;
-        color: white
+        color: $blanco
         
     }
     .preguntas p {
@@ -37,25 +37,25 @@ h4{
         margin: 1.5rem;
     }
     .formulario div{  
-        font-size: 2.5rem;
+        font-size: $s;
         text-align: left;
-        color: rgb(255, 255, 255);
+        color: $blanco;
         padding: 2rem;
     }
     
     .formulario input{ 
-        font-size: 2.5rem;
+        font-size: $s;
         text-align: left;
         }
     
     #estadoCivil { 
-        font-size: 2.5rem;
+        font-size: $s;
         text-align: left;
 
     }
     
     .formulario .preguntas { 
-        font-size: 2.5rem;
+        font-size: $s;
         text-align: left;
     }
     .casilla{
@@ -65,19 +65,19 @@ h4{
 
     @media screen and (max-width: 576px){
         .formulario p { 
-            font-size: 1.5rem;
+            font-size: $xs;
         }
         .formulario div{  
-            font-size: 1.5rem;
+            font-size: $xs;
         }
         .formulario input{ 
-            font-size: 1.5rem;
+            font-size: $xs;
         }
         #estadoCivil { 
-            font-size: 1.5rem;
+            font-size: $xs;
         }
         .formulario .preguntas { 
-            font-size: 1.5rem;
+            font-size: $xs;
         }
 
 

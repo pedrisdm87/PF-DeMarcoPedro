@@ -4,12 +4,12 @@
     display:flex;
     flex-direction: column;
     justify-content:center;
-    font-size: 3rem;
-    color: #2D3142;
+    font-size: $m;
+    color: $azul;
     padding: 2rem;
     margin-bottom: 10rem;
     border-radius: 2rem;
-    background-color: #bfc0c0;
+    background-color: $gris;
     box-shadow: 0 0 10px 10px #2D3142
 }
 .vision h2 {
@@ -20,12 +20,12 @@
     display:flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 2.5rem;
+    font-size: $s;
     color:#2D3142;
     padding: 5rem;
     margin-bottom: 2rem;
     border-radius: 2rem;
-    background-color: #bfc0c0;
+    background-color:$gris;
     
 }
 

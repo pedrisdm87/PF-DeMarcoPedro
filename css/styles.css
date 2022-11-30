@@ -1,9 +1,13 @@
+@charset "UTF-8";
 /* Ajustes Generales */
 * {
   margin: 0;
   padding: 0;
 }
 
+/* Tamaños de letras*/
+/* Media queries*/
+/* colores */
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
@@ -16,7 +20,7 @@ html {
 
 h1 {
   display: inline-flex;
-  color: rgb(255, 255, 255);
+  color: whitesmoke;
   text-align: right;
   font-size: 6rem;
 }
@@ -42,11 +46,7 @@ a {
   }
 }
 body {
-  background-repeat: no-repeat;
-  background-position: top, center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-color: rgb(255, 255, 255);
+  background-color: whitesmoke;
 }
 
 .navegacion {
@@ -257,7 +257,7 @@ h4 {
 .formulario p {
   font-size: 2.5rem;
   text-align: left;
-  color: white;
+  color: whitesmoke;
 }
 
 .preguntas p {
@@ -268,7 +268,7 @@ h4 {
 .formulario div {
   font-size: 2.5rem;
   text-align: left;
-  color: rgb(255, 255, 255);
+  color: whitesmoke;
   padding: 2rem;
 }
 
