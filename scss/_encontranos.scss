@@ -4,11 +4,9 @@
     display: grid;
     place-items: center;
     margin-top: 10rem;
-    box-shadow: 0 0 10px 10px $azul;
     width: 100%;
-    border-radius: 5rem;
-    background-color: $gris;
     overflow: hidden;
+    @extend .fondos-sections;
 }
 
 .titulo-redes h2 {
@@ -17,10 +15,8 @@ margin-top: 5rem;
 }
 
 .social-bar{
-
-       display: flex;
+    @include flex-center;
     justify-content: center;
-    align-items: center;
     margin-top: 3rem;
         
     

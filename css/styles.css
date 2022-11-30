@@ -1,13 +1,13 @@
 @charset "UTF-8";
+/* Tamaños de letras*/
+/* colores */
+/* Mixin */
 /* Ajustes Generales */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* Tamaños de letras*/
-/* Media queries*/
-/* colores */
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
@@ -83,13 +83,14 @@ footer {
     font-size: 0.5rem;
   }
 }
-/* Inicio */
-.carrusel {
+/* Extends */
+.fondos-sections, .map-responsive, .formulario, .introContacto, .contenedor-vision, .contenedor-servicios, .descripcion, .carrusel {
   background-color: #bfc0c0;
   border-radius: 5rem;
   box-shadow: 0 0 10px 10px #2D3142;
 }
 
+/* Inicio */
 .carrusel img {
   height: 600px;
   width: 600px;
@@ -97,11 +98,8 @@ footer {
 }
 
 .descripcion {
-  background-color: #bfc0c0;
-  border-radius: 5rem;
   padding: 2rem;
   margin-top: 10rem;
-  box-shadow: 0 0 10px 10px #2D3142;
 }
 
 .descripcion h2 {
@@ -169,16 +167,13 @@ footer {
 /* Servicios */
 .contenedor-servicios {
   display: flex;
-  flex-direction: row;
   align-items: center;
+  flex-direction: row;
   gap: 80px;
   font-size: 2.5rem;
-  background-color: #bfc0c0;
   color: #2D3142;
-  border-radius: 2rem;
   margin-bottom: 10rem;
   padding: 3rem;
-  box-shadow: 0 0 10px 10px #2D3142;
   width: 100%;
 }
 
@@ -200,15 +195,12 @@ footer {
 /* Nosotros */
 .contenedor-vision {
   display: flex;
+  align-items: center;
   flex-direction: column;
-  justify-content: center;
   font-size: 3rem;
   color: #2D3142;
   padding: 2rem;
   margin-bottom: 10rem;
-  border-radius: 2rem;
-  background-color: #bfc0c0;
-  box-shadow: 0 0 10px 10px #2D3142;
 }
 
 .vision h2 {
@@ -217,14 +209,12 @@ footer {
 
 .vision p {
   display: flex;
+  align-items: center;
   flex-direction: column;
-  justify-content: center;
   font-size: 2.5rem;
   color: #2D3142;
   padding: 5rem;
   margin-bottom: 2rem;
-  border-radius: 2rem;
-  background-color: #bfc0c0;
 }
 
 /* Contacto */
@@ -236,28 +226,21 @@ h4 {
 .introContacto {
   font-size: 2.5rem;
   text-align: left;
-  background-color: #bfc0c0;
   padding: 7rem;
-  border-radius: 2rem;
   margin-top: 5rem;
   margin-bottom: 5rem;
-  border-radius: 2rem;
-  box-shadow: 0 0 10px 10px #2D3142;
 }
 
 .formulario {
   margin-top: 10rem;
-  background-color: #ef8354;
-  border-radius: 2rem;
   padding: 10rem;
-  box-shadow: 0 0 10px 10px #2D3142;
   overflow: hidden;
 }
 
 .formulario p {
   font-size: 2.5rem;
   text-align: left;
-  color: whitesmoke;
+  color: #2D3142;
 }
 
 .preguntas p {
@@ -268,7 +251,7 @@ h4 {
 .formulario div {
   font-size: 2.5rem;
   text-align: left;
-  color: whitesmoke;
+  color: #2D3142;
   padding: 2rem;
 }
 
@@ -314,10 +297,7 @@ h4 {
   display: grid;
   place-items: center;
   margin-top: 10rem;
-  box-shadow: 0 0 10px 10px #2D3142;
   width: 100%;
-  border-radius: 5rem;
-  background-color: #bfc0c0;
   overflow: hidden;
 }
 
@@ -328,8 +308,8 @@ h4 {
 
 .social-bar {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   margin-top: 3rem;
 }
 .social-bar img {

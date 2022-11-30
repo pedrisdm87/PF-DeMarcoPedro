@@ -1,31 +1,24 @@
 /* Nosotros */
 
 .contenedor-vision { 
-    display:flex;
+    @include flex-center;
     flex-direction: column;
-    justify-content:center;
     font-size: $m;
-    color: $azul;
+    color: $azul;   
     padding: 2rem;
     margin-bottom: 10rem;
-    border-radius: 2rem;
-    background-color: $gris;
-    box-shadow: 0 0 10px 10px #2D3142
+    @extend .fondos-sections;
 }
 .vision h2 {
     text-align: center;
 }
 
 .vision p { 
-    display:flex;
+    @include flex-center;
     flex-direction: column;
-    justify-content: center;
     font-size: $s;
     color:#2D3142;
     padding: 5rem;
     margin-bottom: 2rem;
-    border-radius: 2rem;
-    background-color:$gris;
-    
 }
 

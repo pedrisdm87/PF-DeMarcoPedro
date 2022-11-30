@@ -7,21 +7,16 @@ h4{
 .introContacto{    
     font-size: $s;
     text-align: left;
-    background-color: $gris;
     padding: 7rem;
-    border-radius: 2rem;
     margin-top: 5rem;
     margin-bottom: 5rem ;
-    border-radius: 2rem;
-    box-shadow: 0 0 10px 10px $azul
+    @extend .fondos-sections;
 }
 .formulario{
     margin-top: 10rem;
-    background-color: $naranja;
-    border-radius: 2rem;
     padding: 10rem;
-    box-shadow: 0 0 10px 10px $azul;
     overflow: hidden;
+    @extend .fondos-sections;
     }
 
 
@@ -29,7 +24,7 @@ h4{
     .formulario p { 
         font-size: $s;
         text-align: left;
-        color: $blanco
+        color: $azul
         
     }
     .preguntas p {
@@ -39,7 +34,7 @@ h4{
     .formulario div{  
         font-size: $s;
         text-align: left;
-        color: $blanco;
+        color: $azul;
         padding: 2rem;
     }
     

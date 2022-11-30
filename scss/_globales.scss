@@ -1,0 +1,100 @@
+/* Ajustes Generales */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+.barraLogo {
+    background-color: $azul;
+    display: flex;
+}
+
+
+    h1{
+    display: inline-flex;
+    color: $blanco;
+    text-align: right;
+    font-size: $xl;
+    
+}
+@media screen and (max-width:695px){
+
+    h1 {
+        font-size: $l;
+    }
+}
+
+h2 {
+    font-size: $m;
+}
+
+a {
+    text-decoration: none ;
+    font-size:$l;
+    color: $azul;
+}
+
+@media screen and (max-width:992px){
+    a {
+        font-size: $m;
+    }
+}
+
+
+body {
+  
+    background-color: $blanco
+    
+}
+
+.navegacion{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    }
+.navegacion li {
+    display: inline;
+    margin-inline: 3rem;    
+    }
+    
+@media screen and (max-width:1140px){
+    .navegacion li{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.navegacion li :hover {
+    color: $naranja;
+    transition:0.5s;
+}
+
+footer {
+    font-size: $s;
+    color: $azul;
+    text-align: center;
+    padding-top: 5rem;
+   }
+
+@media screen and (max-width:768px) {
+    .footer {
+        font-size: $xxs;
+    }
+    
+}
+
+/* Extends */
+
+.fondos-sections{
+    background-color: $gris;
+    border-radius: 5rem;
+    box-shadow: 0 0 10px 10px $azul;
+}
+
+

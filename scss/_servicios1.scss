@@ -1,18 +1,15 @@
 /* Servicios */
 
 .contenedor-servicios{
-    display:flex;
+    @include flex-center;
     flex-direction: row;
-    align-items: center;
     gap: 80px;
     font-size: $s;
-    background-color: $gris;
     color: $azul;
-    border-radius: 2rem;
     margin-bottom: 10rem;
     padding: 3rem;
-    box-shadow: 0 0 10px 10px $azul;
     width: 100%;
+    @extend .fondos-sections;
 }
 
 @media screen and (max-width: 992px){

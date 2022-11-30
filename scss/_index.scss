@@ -3,9 +3,7 @@
 
 
 .carrusel {
-    background-color: $gris;
-    border-radius: 5rem;
-    box-shadow: 0 0 10px 10px $azul;
+    @extend .fondos-sections
 }
 .carrusel img {
     
@@ -19,11 +17,9 @@
 
 
 .descripcion{ 
-    background-color: $gris;
-    border-radius: 5rem;
+    @extend .fondos-sections;
     padding: 2rem;
     margin-top: 10rem;
-    box-shadow: 0 0 10px 10px $azul
 }
 
 .descripcion h2 {
