@@ -2,6 +2,7 @@
 /* Tamaños de letras*/
 /* colores */
 /* Mixin */
+/* Mixin con parámetros*/
 /* Ajustes Generales */
 * {
   margin: 0;
@@ -92,9 +93,10 @@ footer {
 
 /* Inicio */
 .carrusel img {
-  height: 600px;
-  width: 600px;
+  width: 500px;
+  height: 500px;
   object-fit: contain;
+  overflow: hidden;
 }
 
 .descripcion {
@@ -185,13 +187,13 @@ footer {
     gap: 50px;
   }
   .contenedor-servicios img {
+    width: 80px;
     height: 80px;
   }
 }
-.contenedor-servicios img {
-  height: 120px;
-}
-
+/*.contenedor-servicios img{
+    height: 120px;
+}*/
 /* Nosotros */
 .contenedor-vision {
   display: flex;
@@ -313,7 +315,8 @@ h4 {
   margin-top: 3rem;
 }
 .social-bar img {
-  max-width: 80px;
+  width: 80px;
+  height: 80px;
   margin-inline: 10px;
 }
 .social-bar li {

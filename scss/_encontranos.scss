@@ -21,7 +21,7 @@ margin-top: 5rem;
         
     
     img {
-        max-width: 80px;
+        @include sizes(80px,80px);
         margin-inline: 10px;
         
     }

@@ -20,13 +20,14 @@
         gap: 50px;
     }
     .contenedor-servicios img {
-        height: 80px;
+        @include sizes(80px,80px);
+
     }
     }
 
-.contenedor-servicios img{
+/*.contenedor-servicios img{
     height: 120px;
-}
+}*/
 
 
 
