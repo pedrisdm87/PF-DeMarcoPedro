@@ -47,10 +47,11 @@ a {
 }
 
 
-body {
-  
-    background-color: $blanco
-    
+body{ @if $fiesta == blackFriday {
+    background-color: $naranja;
+    } @else if $fiesta {
+      background-color: $blanco;
+}
 }
 
 .navegacion{
@@ -96,5 +97,4 @@ footer {
     border-radius: 5rem;
     box-shadow: 0 0 10px 10px $azul;
 }
-
 
