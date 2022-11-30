@@ -35,6 +35,6 @@ margin-top: 5rem;
 
 @media screen and (max-width: 576px){
 .social-bar img { 
-    max-width: 55px;
+    @include sizes(55px,55px);
 }
 }

@@ -328,7 +328,8 @@ h4 {
 
 @media screen and (max-width: 576px) {
   .social-bar img {
-    max-width: 55px;
+    width: 55px;
+    height: 55px;
   }
 }
 
