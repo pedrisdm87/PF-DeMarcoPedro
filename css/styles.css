@@ -51,24 +51,24 @@ body {
   background-color: whitesmoke;
 }
 
-.navegacion {
+header {
   margin-top: 2rem;
   margin-bottom: 5rem;
   text-align: center;
 }
 
-.navegacion li {
+header li {
   display: inline;
   margin-inline: 3rem;
 }
 
 @media screen and (max-width: 1140px) {
-  .navegacion li {
+  header li {
     display: flex;
     flex-direction: column;
   }
 }
-.navegacion li :hover {
+header li :hover {
   color: #ef8354;
   transition: 0.5s;
 }
@@ -156,7 +156,7 @@ footer {
   }
   .container-boton {
     bottom: 0px;
-    right: 0px;
+    right: 15px;
   }
 }
 @keyframes efecto-wsp {
@@ -168,6 +168,10 @@ footer {
   }
 }
 /* Servicios */
+h2 {
+  text-align: center;
+}
+
 .contenedor-servicios {
   display: flex;
   align-items: center;
@@ -192,9 +196,6 @@ footer {
     height: 80px;
   }
 }
-/*.contenedor-servicios img{
-    height: 120px;
-}*/
 /* Nosotros */
 .contenedor-vision {
   display: flex;
@@ -263,7 +264,7 @@ h4 {
   text-align: left;
 }
 
-#estadoCivil {
+.estadoCivil {
   font-size: 2.5rem;
   text-align: left;
 }
@@ -288,7 +289,7 @@ h4 {
   .formulario input {
     font-size: 1.5rem;
   }
-  #estadoCivil {
+  .estadoCivil {
     font-size: 1.5rem;
   }
   .formulario .preguntas {

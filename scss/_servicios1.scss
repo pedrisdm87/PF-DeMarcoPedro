@@ -1,5 +1,7 @@
 /* Servicios */
-
+h2 {
+    text-align: center
+}
 .contenedor-servicios{
     @include flex-center;
     flex-direction: row;
@@ -25,9 +27,6 @@
     }
     }
 
-/*.contenedor-servicios img{
-    height: 120px;
-}*/
 
 
 

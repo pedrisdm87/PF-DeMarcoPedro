@@ -54,24 +54,24 @@ body{ @if $fiesta == blackFriday {
 }
 }
 
-.navegacion{
+header{
     margin-top: 2rem;
     margin-bottom: 5rem;
     text-align: center;
     }
-.navegacion li {
+header li {
     display: inline;
     margin-inline: 3rem;    
     }
     
 @media screen and (max-width:1140px){
-    .navegacion li{
+    header li{
         display: flex;
         flex-direction: column;
     }
 }
 
-.navegacion li :hover {
+header li :hover {
     color: $naranja;
     transition:0.5s;
 }

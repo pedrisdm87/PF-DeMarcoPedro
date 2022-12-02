@@ -43,7 +43,7 @@ h4{
         text-align: left;
         }
     
-    #estadoCivil { 
+    .estadoCivil { 
         font-size: $s;
         text-align: left;
 
@@ -68,7 +68,7 @@ h4{
         .formulario input{ 
             font-size: $xs;
         }
-        #estadoCivil { 
+        .estadoCivil { 
             font-size: $xs;
         }
         .formulario .preguntas { 
