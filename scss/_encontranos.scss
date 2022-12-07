@@ -7,7 +7,9 @@
     width: 100%;
     overflow: hidden;
     @extend .fondos-sections;
+    
 }
+
 
 .titulo-redes h2 {
 text-align: center;
@@ -37,4 +39,11 @@ margin-top: 5rem;
 .social-bar img { 
     @include sizes(55px,55px);
 }
+.map-responsive{    
+        display: flex;
+        flex-direction: column;
+        margin-inline: auto;
+        width: 90%;
+    }
+    
 }
