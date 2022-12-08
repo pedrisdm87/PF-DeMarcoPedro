@@ -97,7 +97,7 @@ footer {
   }
 }
 /* Extends */
-.fondos-sections, .map-responsive, .formulario, .introContacto, .contenedor-vision, .contenedor-servicios, .descripcion, .carrusel {
+.fondos-sections, .map-responsive, form, .introContacto, .contenedor-vision, .contenedor-servicios, .descripcion, .carrusel {
   background-color: #bfc0c0;
   border-radius: 5rem;
   box-shadow: 0 0 10px 10px #2D3142;
@@ -170,6 +170,10 @@ footer {
     bottom: 15px;
     right: 15px;
   }
+  .video-responsive {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 }
 @keyframes efecto-wsp {
   0% {
@@ -237,6 +241,8 @@ h2 {
 h4 {
   font-size: 2.5rem;
   text-align: center;
+  color: #2D3142;
+  margin-bottom: 1em;
 }
 
 .introContacto {
@@ -247,13 +253,13 @@ h4 {
   margin-bottom: 5rem;
 }
 
-.formulario {
+form {
   margin-top: 10rem;
   padding: 10rem;
   overflow: hidden;
 }
 
-.formulario p {
+form p {
   font-size: 2.5rem;
   text-align: left;
   color: #2D3142;
@@ -264,14 +270,14 @@ h4 {
   margin: 1.5rem;
 }
 
-.formulario div {
+form div {
   font-size: 2.5rem;
   text-align: left;
   color: #2D3142;
   padding: 2rem;
 }
 
-.formulario input {
+form input {
   font-size: 2.5rem;
   text-align: left;
 }
@@ -281,7 +287,7 @@ h4 {
   text-align: left;
 }
 
-.formulario .preguntas {
+form .preguntas {
   font-size: 2.5rem;
   text-align: left;
 }
@@ -289,6 +295,44 @@ h4 {
 .casilla {
   display: flex;
   flex-direction: column;
+}
+
+form input,
+form button,
+form textarea {
+  width: 100%;
+  padding: 0.7em;
+  border: none;
+  background: none;
+  border-bottom: 2px solid #ef8354;
+  outline: none;
+  color: #2D3142;
+  margin-bottom: 1em;
+}
+
+form button {
+  background: #ef8354;
+  border: none;
+  color: #2D3142;
+  text-transform: uppercase;
+  margin: auto;
+  margin-bottom: 1em;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+form button:hover,
+form button:focus {
+  background: #2D3142;
+  color: #bfc0c0;
+  transition: background-color 1s ease-out;
+}
+
+input[type=radio],
+input[type=checkbox] {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 @media screen and (max-width: 576px) {

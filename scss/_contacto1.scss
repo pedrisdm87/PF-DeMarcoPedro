@@ -2,6 +2,8 @@
 h4{
     font-size: $s;
     text-align: center;
+    color: $azul;
+    margin-bottom: 1em;
 }
 
 .introContacto{    
@@ -12,16 +14,15 @@ h4{
     margin-bottom: 5rem ;
     @extend .fondos-sections;
 }
-.formulario{
+form{
     margin-top: 10rem;
     padding: 10rem;
     overflow: hidden;
     @extend .fondos-sections;
     }
 
-
     
-    .formulario p { 
+    form p { 
         font-size: $s;
         text-align: left;
         color: $azul
@@ -30,15 +31,16 @@ h4{
     .preguntas p {
         text-align: left;
         margin: 1.5rem;
+        
     }
-    .formulario div{  
+    form div{  
         font-size: $s;
         text-align: left;
         color: $azul;
         padding: 2rem;
     }
     
-    .formulario input{ 
+    form input{ 
         font-size: $s;
         text-align: left;
         }
@@ -49,7 +51,7 @@ h4{
 
     }
     
-    .formulario .preguntas { 
+    form .preguntas { 
         font-size: $s;
         text-align: left;
     }
@@ -58,7 +60,47 @@ h4{
         flex-direction: column;
     }
 
-    @media screen and (max-width: 576px){
+form input,
+form button,
+form textarea{
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    border-bottom: 2px solid $naranja;
+    outline: none;
+    color: $azul;
+    margin-bottom: 1em;
+}
+
+form button{
+    background: $naranja;
+    border: none;
+    color: $azul;
+    text-transform: uppercase;
+    margin:auto;
+    margin-bottom: 1em;
+    width:100%;
+    padding: 0.5rem;
+    
+}
+
+form button:hover,
+form button:focus{
+background: $azul;
+color: $gris;
+transition: background-color 1s ease-out;
+}
+
+
+input[type="radio"],
+input[type="checkbox"] {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5);
+}
+
+@media screen and (max-width: 576px){
         .formulario p { 
             font-size: $xs;
         }
