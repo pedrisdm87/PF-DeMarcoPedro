@@ -103,7 +103,8 @@ input[type="checkbox"] {
 @media screen and (max-width: 576px){
         form label,
         form div,
-        form p { 
+        form p,
+        .estadoCivil { 
             font-size: $xs;
             margin: 0;
             padding: 1rem;
