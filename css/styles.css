@@ -304,16 +304,16 @@ form textarea {
   padding: 0.7em;
   border: none;
   background: none;
-  border-bottom: 2px solid #ef8354;
+  border-bottom: 2px solid #2D3142;
   outline: none;
   color: #2D3142;
   margin-bottom: 1em;
 }
 
 form button {
-  background: #ef8354;
+  background: #2D3142;
   border: none;
-  color: #2D3142;
+  color: #bfc0c0;
   text-transform: uppercase;
   margin: auto;
   margin-bottom: 1em;
@@ -323,9 +323,9 @@ form button {
 
 form button:hover,
 form button:focus {
-  background: #2D3142;
-  color: #bfc0c0;
-  transition: background-color 1s ease-out;
+  background: whitesmoke;
+  color: #2D3142;
+  transition: background-color 0.5s ease-out;
 }
 
 input[type=radio],
@@ -336,20 +336,12 @@ input[type=checkbox] {
 }
 
 @media screen and (max-width: 576px) {
-  .formulario p {
-    font-size: 1.5rem;
-  }
-  .formulario div {
-    font-size: 1.5rem;
-  }
-  .formulario input {
-    font-size: 1.5rem;
-  }
-  .estadoCivil {
-    font-size: 1.5rem;
-  }
-  .formulario .preguntas {
-    font-size: 1.5rem;
+  form label,
+  form div,
+  form p {
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 1rem;
   }
 }
 /* Encontranos */

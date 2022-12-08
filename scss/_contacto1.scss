@@ -67,16 +67,16 @@ form textarea{
     padding: .7em;
     border: none;
     background: none;
-    border-bottom: 2px solid $naranja;
+    border-bottom: 2px solid $azul;
     outline: none;
     color: $azul;
     margin-bottom: 1em;
 }
 
 form button{
-    background: $naranja;
+    background: $azul;
     border: none;
-    color: $azul;
+    color: $gris;
     text-transform: uppercase;
     margin:auto;
     margin-bottom: 1em;
@@ -87,9 +87,9 @@ form button{
 
 form button:hover,
 form button:focus{
-background: $azul;
-color: $gris;
-transition: background-color 1s ease-out;
+background: $blanco;
+color: $azul;
+transition: background-color 0.5s ease-out;
 }
 
 
@@ -101,21 +101,11 @@ input[type="checkbox"] {
 }
 
 @media screen and (max-width: 576px){
-        .formulario p { 
-            font-size: $xs;
+        form label,
+        form div,
+        form p { 
+            font-size: $s;
+            margin: 0;
+            padding: 1rem;
         }
-        .formulario div{  
-            font-size: $xs;
-        }
-        .formulario input{ 
-            font-size: $xs;
-        }
-        .estadoCivil { 
-            font-size: $xs;
-        }
-        .formulario .preguntas { 
-            font-size: $xs;
-        }
-
-
     }
